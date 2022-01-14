@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckQuery.Business", "CheckQuery.Business\CheckQuery.Business.csproj", "{E6266821-1421-42BC-8FBB-119EC489E63D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CheckQuery.UI", "CheckQuery.UI", "{D0B5FE4F-AA79-4E5B-9337-7C9307BECCE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckQuery.Domain", "CheckQuery.Domain\CheckQuery.Domain.csproj", "{732569F0-EA47-4ECD-9A5F-E255307D6B1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckQuery.Test", "CheckQuery.Test\CheckQuery.Test.csproj", "{52851F35-B8EA-4999-8896-DF18C07225E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckQuery.Commun", "CheckQuery.Commun\CheckQuery.Commun.csproj", "{6EC14686-1F7E-4617-864F-8DBDC04D53AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckQuery.UI.WPF", "CheckQuery.UI\CheckQuery.UI.WPF.csproj", "{34DD2B38-A768-4345-B458-29F743E42C0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckQuery.WinForms", "CheckQuery.WinForms\CheckQuery.WinForms.csproj", "{88105788-ED92-4E70-9133-B8867B4E3BFC}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CheckQuery.Install", "CheckQuery.Install\CheckQuery.Install.vdproj", "{C8FBAA37-167D-4C08-BE5F-0328F791C5F7}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://bomite.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CheckQuery.Business\\CheckQuery.Business.csproj
+		SccProjectName1 = CheckQuery.Business
+		SccLocalPath1 = CheckQuery.Business
+		SccProjectUniqueName2 = CheckQuery.Domain\\CheckQuery.Domain.csproj
+		SccProjectName2 = CheckQuery.Domain
+		SccLocalPath2 = CheckQuery.Domain
+		SccProjectUniqueName3 = CheckQuery.Test\\CheckQuery.Test.csproj
+		SccProjectName3 = CheckQuery.Test
+		SccLocalPath3 = CheckQuery.Test
+		SccProjectUniqueName4 = CheckQuery.Commun\\CheckQuery.Commun.csproj
+		SccProjectName4 = CheckQuery.Commun
+		SccLocalPath4 = CheckQuery.Commun
+		SccProjectUniqueName5 = CheckQuery.UI\\CheckQuery.UI.WPF.csproj
+		SccProjectTopLevelParentUniqueName5 = CheckQuery.sln
+		SccProjectName5 = CheckQuery.UI
+		SccLocalPath5 = CheckQuery.UI
+		SccProjectUniqueName6 = CheckQuery.WinForms\\CheckQuery.WinForms.csproj
+		SccProjectTopLevelParentUniqueName6 = CheckQuery.sln
+		SccProjectName6 = CheckQuery.WinForms
+		SccLocalPath6 = CheckQuery.WinForms
+		SccProjectUniqueName7 = CheckQuery.Install\\CheckQuery.Install.vdproj
+		SccProjectName7 = CheckQuery.Install
+		SccLocalPath7 = CheckQuery.Install
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6266821-1421-42BC-8FBB-119EC489E63D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6266821-1421-42BC-8FBB-119EC489E63D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6266821-1421-42BC-8FBB-119EC489E63D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6266821-1421-42BC-8FBB-119EC489E63D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{732569F0-EA47-4ECD-9A5F-E255307D6B1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{732569F0-EA47-4ECD-9A5F-E255307D6B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{732569F0-EA47-4ECD-9A5F-E255307D6B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{732569F0-EA47-4ECD-9A5F-E255307D6B1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52851F35-B8EA-4999-8896-DF18C07225E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52851F35-B8EA-4999-8896-DF18C07225E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52851F35-B8EA-4999-8896-DF18C07225E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52851F35-B8EA-4999-8896-DF18C07225E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EC14686-1F7E-4617-864F-8DBDC04D53AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EC14686-1F7E-4617-864F-8DBDC04D53AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EC14686-1F7E-4617-864F-8DBDC04D53AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EC14686-1F7E-4617-864F-8DBDC04D53AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34DD2B38-A768-4345-B458-29F743E42C0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34DD2B38-A768-4345-B458-29F743E42C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34DD2B38-A768-4345-B458-29F743E42C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34DD2B38-A768-4345-B458-29F743E42C0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88105788-ED92-4E70-9133-B8867B4E3BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88105788-ED92-4E70-9133-B8867B4E3BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88105788-ED92-4E70-9133-B8867B4E3BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88105788-ED92-4E70-9133-B8867B4E3BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8FBAA37-167D-4C08-BE5F-0328F791C5F7}.Debug|Any CPU.ActiveCfg = Debug
+		{C8FBAA37-167D-4C08-BE5F-0328F791C5F7}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{34DD2B38-A768-4345-B458-29F743E42C0B} = {D0B5FE4F-AA79-4E5B-9337-7C9307BECCE1}
+		{88105788-ED92-4E70-9133-B8867B4E3BFC} = {D0B5FE4F-AA79-4E5B-9337-7C9307BECCE1}
+	EndGlobalSection
+EndGlobal
